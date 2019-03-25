@@ -1,4 +1,4 @@
-# Conway's-Game-of-Life
+# Conway's-Game-of-Life 
 Simulating Conway's Game of Life.The program begins by reading the initial state configuration of the organisms managed by the co-routines, the number of generations to run, and the printing frequency (in steps).
 
  The program initializes an appropriate mechanism, and control is then passed to a scheduler co-routine which decides the appropriate scheduling for the co-routines. The states of the organisms managed by the co-routines, where co-routine is responsible for one organism, cell in the array. Every organism is a cell in 2 a dimensional array, so it has 8 neighbors (diagonal cells also count as neighbors). Life board is cyclic, it means that each cell in the last column has neighbors from the first column and vice versa. Each cell in the last row has neighbors from the first row and vice versa.
